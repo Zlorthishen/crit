@@ -1,0 +1,24 @@
+[
+  {
+    "//": "7x7 cyborg & dissector",
+    "type": "mapgen",
+    "method": "json",
+    "weight": 250,
+    "nested_mapgen_id": "lab_room_7x7",
+    "object": {
+      "mapgensize": [ 7, 7 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        ".......",
+        ".......",
+        ".......",
+        ".......",
+        ".......",
+        ".......",
+        "......."
+      ],
+      "palettes": [ "lab_palette", "lab_loot_research" ],
+      "place_monsters": [ { "monster": "GROUP_NECROMORPH", "x": [ 0, 6 ], "y": [ 0, 6 ], "chance": 50 } ]
+    }
+  }
+]
